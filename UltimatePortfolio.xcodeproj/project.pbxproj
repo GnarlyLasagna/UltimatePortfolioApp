@@ -16,6 +16,14 @@
 		FD7263BA27DE796500E6DBA8 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD7263B927DE796500E6DBA8 /* CloudKit.framework */; };
 		FD7263BC27DE7E9800E6DBA8 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7263BB27DE7E9800E6DBA8 /* HomeView.swift */; };
 		FD7263BE27DE7F8B00E6DBA8 /* ProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7263BD27DE7F8B00E6DBA8 /* ProjectsView.swift */; };
+		FD7263C027DEA92700E6DBA8 /* Item-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7263BF27DEA92700E6DBA8 /* Item-CoreDataHelpers.swift */; };
+		FD7263C227DEA9FC00E6DBA8 /* Project-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7263C127DEA9FC00E6DBA8 /* Project-CoreDataHelpers.swift */; };
+		FD7263C427DEBDA900E6DBA8 /* EditItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7263C327DEBDA900E6DBA8 /* EditItemView.swift */; };
+		FD7263C627DEC1B400E6DBA8 /* ItemRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7263C527DEC1B400E6DBA8 /* ItemRowView.swift */; };
+		FD7263C827DEF8BD00E6DBA8 /* Binding-OnChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7263C727DEF8BD00E6DBA8 /* Binding-OnChange.swift */; };
+		FD7263CA27DF023A00E6DBA8 /* ProjectHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7263C927DF023A00E6DBA8 /* ProjectHeaderView.swift */; };
+		FD7263CC27DF062400E6DBA8 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD7263CB27DF062400E6DBA8 /* Colors.xcassets */; };
+		FD7263CE27E045B900E6DBA8 /* EditProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7263CD27E045B900E6DBA8 /* EditProjectView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +39,14 @@
 		FD7263B927DE796500E6DBA8 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		FD7263BB27DE7E9800E6DBA8 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		FD7263BD27DE7F8B00E6DBA8 /* ProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsView.swift; sourceTree = "<group>"; };
+		FD7263BF27DEA92700E6DBA8 /* Item-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item-CoreDataHelpers.swift"; sourceTree = "<group>"; };
+		FD7263C127DEA9FC00E6DBA8 /* Project-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project-CoreDataHelpers.swift"; sourceTree = "<group>"; };
+		FD7263C327DEBDA900E6DBA8 /* EditItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditItemView.swift; sourceTree = "<group>"; };
+		FD7263C527DEC1B400E6DBA8 /* ItemRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRowView.swift; sourceTree = "<group>"; };
+		FD7263C727DEF8BD00E6DBA8 /* Binding-OnChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding-OnChange.swift"; sourceTree = "<group>"; };
+		FD7263C927DF023A00E6DBA8 /* ProjectHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectHeaderView.swift; sourceTree = "<group>"; };
+		FD7263CB27DF062400E6DBA8 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		FD7263CD27E045B900E6DBA8 /* EditProjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProjectView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,12 +82,20 @@
 			isa = PBXGroup;
 			children = (
 				FD7263A327DE4F8200E6DBA8 /* UltimatePortfolioApp.swift */,
+				FD7263C927DF023A00E6DBA8 /* ProjectHeaderView.swift */,
+				FD7263A527DE4F8200E6DBA8 /* ContentView.swift */,
+				FD7263CD27E045B900E6DBA8 /* EditProjectView.swift */,
 				FD7263BB27DE7E9800E6DBA8 /* HomeView.swift */,
 				FD7263BD27DE7F8B00E6DBA8 /* ProjectsView.swift */,
-				FD7263A527DE4F8200E6DBA8 /* ContentView.swift */,
+				FD7263C527DEC1B400E6DBA8 /* ItemRowView.swift */,
+				FD7263C327DEBDA900E6DBA8 /* EditItemView.swift */,
 				FD7263B427DE6F1800E6DBA8 /* DataController.swift */,
+				FD7263C727DEF8BD00E6DBA8 /* Binding-OnChange.swift */,
+				FD7263BF27DEA92700E6DBA8 /* Item-CoreDataHelpers.swift */,
+				FD7263C127DEA9FC00E6DBA8 /* Project-CoreDataHelpers.swift */,
 				FD7263B127DE652200E6DBA8 /* main.xcdatamodeld */,
 				FD7263B727DE77EF00E6DBA8 /* Info.plist */,
+				FD7263CB27DF062400E6DBA8 /* Colors.xcassets */,
 				FD7263A727DE4F8300E6DBA8 /* Assets.xcassets */,
 				FD7263B627DE77E700E6DBA8 /* UltimatePortfolio.entitlements */,
 				FD7263A927DE4F8300E6DBA8 /* Preview Content */,
@@ -153,6 +177,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD7263CC27DF062400E6DBA8 /* Colors.xcassets in Resources */,
 				FD7263AB27DE4F8300E6DBA8 /* Preview Assets.xcassets in Resources */,
 				FD7263A827DE4F8300E6DBA8 /* Assets.xcassets in Resources */,
 			);
@@ -166,11 +191,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD7263BE27DE7F8B00E6DBA8 /* ProjectsView.swift in Sources */,
+				FD7263CA27DF023A00E6DBA8 /* ProjectHeaderView.swift in Sources */,
 				FD7263B327DE652200E6DBA8 /* main.xcdatamodeld in Sources */,
+				FD7263C227DEA9FC00E6DBA8 /* Project-CoreDataHelpers.swift in Sources */,
+				FD7263CE27E045B900E6DBA8 /* EditProjectView.swift in Sources */,
 				FD7263B527DE6F1800E6DBA8 /* DataController.swift in Sources */,
+				FD7263C627DEC1B400E6DBA8 /* ItemRowView.swift in Sources */,
 				FD7263A627DE4F8200E6DBA8 /* ContentView.swift in Sources */,
+				FD7263C827DEF8BD00E6DBA8 /* Binding-OnChange.swift in Sources */,
 				FD7263BC27DE7E9800E6DBA8 /* HomeView.swift in Sources */,
 				FD7263A427DE4F8200E6DBA8 /* UltimatePortfolioApp.swift in Sources */,
+				FD7263C027DEA92700E6DBA8 /* Item-CoreDataHelpers.swift in Sources */,
+				FD7263C427DEBDA900E6DBA8 /* EditItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
