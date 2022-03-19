@@ -1,7 +1,20 @@
 import Foundation
 
 extension Project {
-    static let colors = ["Pink", "Purple", "Red", "Orange", "Gold", "Green", "Teal", "Light Blue", "Dark Blue", "Midnight", "Dark Gray", "Gray"]
+    static let colors = [
+        "Pink",
+        "Purple",
+        "Red",
+        "Orange",
+        "Gold",
+        "Green",
+        "Teal",
+        "Light Blue",
+        "Dark Blue",
+        "Midnight",
+        "Dark Gray",
+        "Gray"
+    ]
 
     var projectTitle: String {
         title ?? NSLocalizedString("New Project", comment: "Create a new project")
@@ -14,11 +27,9 @@ extension Project {
     var projectColor: String {
         color ?? "Light Blue"
     }
-    
     var projectItems: [Item] {
         items?.allObjects as? [Item] ?? []
     }
-    
     var projectItemsDefaultSorted: [Item] {
         projectItems.sorted { first, second in
             if first.completed == false {
@@ -40,7 +51,6 @@ extension Project {
             return first.itemCreationDate < second.itemCreationDate
         }
     }
-    
     var completionAmount: Double {
         let originalItems = items?.allObjects as? [Item] ?? []
         guard originalItems.isEmpty == false else { return 0 }
@@ -48,8 +58,6 @@ extension Project {
         let completedItems = originalItems.filter(\.completed)
         return Double(completedItems.count) / Double(originalItems.count)
     }
-    
-    
     static var example: Project {
         let controller = DataController(inMemory: true)
         let viewContext = controller.container.viewContext
@@ -61,7 +69,6 @@ extension Project {
         project.creationDate = Date()
         return project
     }
-    
     func projectItems(using sortOrder: Item.SortOrder) -> [Item] {
         switch sortOrder {
         case .title:
@@ -72,5 +79,4 @@ extension Project {
             return projectItemsDefaultSorted
         }
     }
-    
 }

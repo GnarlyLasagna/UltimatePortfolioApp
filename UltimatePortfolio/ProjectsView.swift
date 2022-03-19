@@ -3,15 +3,13 @@ import SwiftUI
 struct ProjectsView: View {
     static let openTag: String? = "Open"
     static let closedTag: String? = "Closed"
-    
+
     @EnvironmentObject var dataController: DataController
     @Environment(\.managedObjectContext) var managedObjectContext
-    
-   
+
     @State private var showingSortOrder = false
     @State private var sortOrder = Item.SortOrder.optimized
 
-    
     let showClosedProjects: Bool
     let projects: FetchRequest<Project>
 
@@ -32,7 +30,7 @@ struct ProjectsView: View {
             .onDelete { offsets in
                 delete(offsets, from: project)
             }
-            
+
             if showClosedProjects == false {
                 Button {
                     addItem(to: project)
@@ -44,7 +42,7 @@ struct ProjectsView: View {
 }
 .listStyle(InsetGroupedListStyle())
     }
-    
+
     var body: some View {
         NavigationView {
             Group {
@@ -120,7 +118,7 @@ struct ProjectsView: View {
         }
     }
 }
-    
+
 struct ProjectsView_Previews: PreviewProvider {
     static var dataController = DataController.preview
 
@@ -130,4 +128,3 @@ struct ProjectsView_Previews: PreviewProvider {
             .environmentObject(dataController)
     }
 }
-
