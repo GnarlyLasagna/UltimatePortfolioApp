@@ -2,7 +2,7 @@ import SwiftUI
 
 struct ContentView: View {
     @SceneStorage("selectedView") var selectedView: String?
-    
+
     var body: some View {
         TabView(selection: $selectedView) {
             HomeView()

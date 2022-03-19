@@ -4,14 +4,22 @@ import SwiftUI
 struct HomeView: View {
     static let tag: String? = "Home"
     let items: FetchRequest<Item>
-    
-    @FetchRequest(entity: Project.entity(), sortDescriptors: [NSSortDescriptor(keyPath: \Project.title, ascending: true)], predicate: NSPredicate(format: "closed = false")) var projects: FetchedResults<Project>
-    
+
+    @FetchRequest(
+        entity: Project.entity(),
+        sortDescriptors: [NSSortDescriptor(keyPath: \Project.title, ascending: true)],
+        predicate: NSPredicate(format: "closed = false")
+    ) var projects: FetchedResults<Project>
+
     @EnvironmentObject var dataController: DataController
 
     init() {
         let request: NSFetchRequest<Item> = Item.fetchRequest()
-        request.predicate = NSPredicate(format: "completed = false")
+        let completedPredicate = NSPredicate(format: "completed = false")
+        let openPredicate = NSPredicate(format: "project.closed = false")
+        let compoundPredicate = NSCompoundPredicate(type: .and, subpredicates: [completedPredicate, openPredicate])
+
+        request.predicate = compoundPredicate
 
         request.sortDescriptors = [
             NSSortDescriptor(keyPath: \Item.priority, ascending: false)
@@ -22,7 +30,6 @@ struct HomeView: View {
     var projectRows: [GridItem] {
         [GridItem(.fixed(100))]
     }
-    
     var body: some View {
         NavigationView {
             ScrollView {
@@ -43,13 +50,17 @@ struct HomeView: View {
             }
             .background(Color.systemGroupedBackground.ignoresSafeArea())
             .navigationTitle("Home")
+// Add data button
+            .toolbar {
+                Button("Add Data") {
+                    dataController.deleteAll()
+                    try? dataController.createSampleData()
+                }
+            }
+// Add data button
             }
         }
     }
-    
-//                Button("Add Data") {
-//                    dataController.deleteAll()
-//                    try? dataController.createSampleData()
 struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
         HomeView()

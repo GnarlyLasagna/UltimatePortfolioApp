@@ -2,13 +2,12 @@ import SwiftUI
 
 struct EditItemView: View {
     @EnvironmentObject var dataController: DataController
-    
+
     let item: Item
     @State private var title: String
     @State private var detail: String
     @State private var priority: Int
     @State private var completed: Bool
-    
     init(item: Item) {
         self.item = item
 
@@ -17,7 +16,6 @@ struct EditItemView: View {
         _priority = State(wrappedValue: Int(item.priority))
         _completed = State(wrappedValue: item.completed)
     }
-    
     var body: some View {
         Form {
             Section(header: Text("Basic settings")) {
@@ -40,9 +38,7 @@ struct EditItemView: View {
         }
         .navigationTitle("Edit Item")
         .onDisappear(perform: dataController.save)
-        
     }
-    
     func update() {
         item.project?.objectWillChange.send()
 
