@@ -32,24 +32,8 @@ struct EditProjectView: View {
             
             Section(header: Text("Custom project color")) {
                 LazyVGrid(columns: colorColumns) {
-                    ForEach(Project.colors, id: \.self) { item in
-                        ZStack {
-                            Color(item)
-                                .aspectRatio(1, contentMode: .fit)
-                                .cornerRadius(6)
-
-                            if item == color {
-                                Image(systemName: "checkmark.circle")
-                                    .foregroundColor(.white)
-                                    .font(.largeTitle)
-                            }
-                        }
-                        .onTapGesture {
-                            color = item
-                            update()
-                        }
+                    ForEach(Project.colors, id: \.self, content: colorButton)
                     }
-                }
                 .padding(.vertical)
             }
             
@@ -58,7 +42,6 @@ struct EditProjectView: View {
                     project.closed.toggle()
                     update()
                 }
-
                 Button("Delete this project") {
                     showingDeleteConfirm.toggle()
                 }
@@ -71,6 +54,32 @@ struct EditProjectView: View {
             Alert(title: Text("Delete project?"), message: Text("Are you sure you want to delete this project? You will also delete all the items it contains."), primaryButton: .default(Text("Delete"), action: delete), secondaryButton: .cancel())
         }
     }
+
+    func colorButton(for item: String) -> some View {
+        ZStack {
+            Color(item)
+                .aspectRatio(1, contentMode: .fit)
+                .cornerRadius(6)
+
+            if item == color {
+                Image(systemName: "checkmark.circle")
+                    .foregroundColor(.white)
+                    .font(.largeTitle)
+            }
+        }
+        .onTapGesture {
+            color = item
+            update()
+        }
+        .accessibilityElement(children: .ignore)
+        .accessibilityAddTraits(
+            item == color
+                ? [.isButton, .isSelected]
+                : .isButton
+        )
+        .accessibilityLabel(LocalizedStringKey(item))
+    }
+    
     func update() {
         project.title = title
         project.detail = detail
