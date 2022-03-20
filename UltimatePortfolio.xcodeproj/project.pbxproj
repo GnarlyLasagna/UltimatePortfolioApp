@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD368A5527E6CA5800F57FA6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FD368A5727E6CA5800F57FA6 /* Localizable.strings */; };
 		FD7263A427DE4F8200E6DBA8 /* UltimatePortfolioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7263A327DE4F8200E6DBA8 /* UltimatePortfolioApp.swift */; };
 		FD7263A627DE4F8200E6DBA8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7263A527DE4F8200E6DBA8 /* ContentView.swift */; };
 		FD7263A827DE4F8300E6DBA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD7263A727DE4F8300E6DBA8 /* Assets.xcassets */; };
@@ -30,17 +31,17 @@
 		FD7263D827E3FF5A00E6DBA8 /* Award.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7263D727E3FF5A00E6DBA8 /* Award.swift */; };
 		FD7263DA27E4004000E6DBA8 /* AwardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7263D927E4004000E6DBA8 /* AwardsView.swift */; };
 		FD7263DC27E40FB400E6DBA8 /* Color-Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7263DB27E40FB400E6DBA8 /* Color-Additions.swift */; };
-		FD7263EA27E5424800E6DBA8 /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = FD7263EC27E5424800E6DBA8 /* Localizable.stringsdict */; };
 		FD7263ED27E5425800E6DBA8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FD7263EF27E5425800E6DBA8 /* Localizable.strings */; };
-		FD7263F027E5426F00E6DBA8 /* Awards.json in Resources */ = {isa = PBXBuildFile; fileRef = FD7263F227E5426F00E6DBA8 /* Awards.json */; };
 		FD7263F927E555A800E6DBA8 /* Awards.json in Resources */ = {isa = PBXBuildFile; fileRef = FD7263FB27E555A800E6DBA8 /* Awards.json */; };
-		FD7263FC27E555B300E6DBA8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FD7263FE27E555B300E6DBA8 /* Localizable.strings */; };
 		FD7263FF27E555C500E6DBA8 /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = FD72640127E555C500E6DBA8 /* Localizable.stringsdict */; };
 		FD72640327E5857900E6DBA8 /* ItemListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD72640227E5857900E6DBA8 /* ItemListView.swift */; };
 		FD72640527E588C400E6DBA8 /* ProjectSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD72640427E588C400E6DBA8 /* ProjectSummaryView.swift */; };
+		FD72641027E6BBB100E6DBA8 /* Awards.json in Resources */ = {isa = PBXBuildFile; fileRef = FD72641227E6BBB100E6DBA8 /* Awards.json */; };
+		FDD77E9A27E6C96A00B5976C /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = FDD77E9C27E6C96A00B5976C /* Localizable.stringsdict */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FD368A5627E6CA5800F57FA6 /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hu; path = hu.lproj/Localizable.strings; sourceTree = "<group>"; };
 		FD7263A027DE4F8200E6DBA8 /* UltimatePortfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UltimatePortfolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD7263A327DE4F8200E6DBA8 /* UltimatePortfolioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltimatePortfolioApp.swift; sourceTree = "<group>"; };
 		FD7263A527DE4F8200E6DBA8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -67,14 +68,13 @@
 		FD7263D727E3FF5A00E6DBA8 /* Award.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Award.swift; sourceTree = "<group>"; };
 		FD7263D927E4004000E6DBA8 /* AwardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardsView.swift; sourceTree = "<group>"; };
 		FD7263DB27E40FB400E6DBA8 /* Color-Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color-Additions.swift"; sourceTree = "<group>"; };
-		FD7263EB27E5424800E6DBA8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = en; path = en.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
 		FD7263EE27E5425800E6DBA8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		FD7263F127E5426F00E6DBA8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = en; path = en.lproj/Awards.json; sourceTree = "<group>"; };
 		FD7263FA27E555A800E6DBA8 /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = hu; path = hu.lproj/Awards.json; sourceTree = "<group>"; };
-		FD7263FD27E555B300E6DBA8 /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hu; path = hu.lproj/Localizable.strings; sourceTree = "<group>"; };
 		FD72640027E555C500E6DBA8 /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = hu; path = hu.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
 		FD72640227E5857900E6DBA8 /* ItemListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListView.swift; sourceTree = "<group>"; };
 		FD72640427E588C400E6DBA8 /* ProjectSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectSummaryView.swift; sourceTree = "<group>"; };
+		FD72641127E6BBB100E6DBA8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = en; path = en.lproj/Awards.json; sourceTree = "<group>"; };
+		FDD77E9B27E6C96A00B5976C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = en; path = en.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,37 +109,17 @@
 		FD7263A227DE4F8200E6DBA8 /* UltimatePortfolio */ = {
 			isa = PBXGroup;
 			children = (
-				FD7263B627DE77E700E6DBA8 /* UltimatePortfolio.entitlements */,
+				FD72640D27E6BA9600E6DBA8 /* Activities */,
+				FD72640A27E6B57800E6DBA8 /* Extensions */,
+				FD72640B27E6B57F00E6DBA8 /* Localization */,
 				FD7263A327DE4F8200E6DBA8 /* UltimatePortfolioApp.swift */,
-				FD7263BB27DE7E9800E6DBA8 /* HomeView.swift */,
-				FD72640427E588C400E6DBA8 /* ProjectSummaryView.swift */,
-				FD72640227E5857900E6DBA8 /* ItemListView.swift */,
-				FD7263BD27DE7F8B00E6DBA8 /* ProjectsView.swift */,
-				FD7263C927DF023A00E6DBA8 /* ProjectHeaderView.swift */,
-				FD7263D127E3A83200E6DBA8 /* SelectSomethingView.swift */,
-				FD7263A527DE4F8200E6DBA8 /* ContentView.swift */,
-				FD7263C527DEC1B400E6DBA8 /* ItemRowView.swift */,
-				FD7263CD27E045B900E6DBA8 /* EditProjectView.swift */,
-				FD7263C327DEBDA900E6DBA8 /* EditItemView.swift */,
-				FD7263D927E4004000E6DBA8 /* AwardsView.swift */,
-				FD7263FB27E555A800E6DBA8 /* Awards.json */,
-				FD7263FE27E555B300E6DBA8 /* Localizable.strings */,
-				FD72640127E555C500E6DBA8 /* Localizable.stringsdict */,
-				FD7263F227E5426F00E6DBA8 /* Awards.json */,
-				FD7263EF27E5425800E6DBA8 /* Localizable.strings */,
-				FD7263EC27E5424800E6DBA8 /* Localizable.stringsdict */,
-				FD7263DB27E40FB400E6DBA8 /* Color-Additions.swift */,
-				FD7263C727DEF8BD00E6DBA8 /* Binding-OnChange.swift */,
-				FD7263CF27E39A9300E6DBA8 /* Sequence-Sorting.swift */,
-				FD7263BF27DEA92700E6DBA8 /* Item-CoreDataHelpers.swift */,
-				FD7263C127DEA9FC00E6DBA8 /* Project-CoreDataHelpers.swift */,
 				FD7263B427DE6F1800E6DBA8 /* DataController.swift */,
-				FD7263D327E3F1D000E6DBA8 /* Bundle.Decodable.swift */,
-				FD7263D727E3FF5A00E6DBA8 /* Award.swift */,
-				FD7263CB27DF062400E6DBA8 /* Colors.xcassets */,
+				FD7263A527DE4F8200E6DBA8 /* ContentView.swift */,
 				FD7263A727DE4F8300E6DBA8 /* Assets.xcassets */,
-				FD7263B127DE652200E6DBA8 /* main.xcdatamodeld */,
+				FD7263CB27DF062400E6DBA8 /* Colors.xcassets */,
+				FD7263B627DE77E700E6DBA8 /* UltimatePortfolio.entitlements */,
 				FD7263B727DE77EF00E6DBA8 /* Info.plist */,
+				FD7263B127DE652200E6DBA8 /* main.xcdatamodeld */,
 				FD7263A927DE4F8300E6DBA8 /* Preview Content */,
 			);
 			path = UltimatePortfolio;
@@ -161,6 +141,74 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		FD72640727E6A77000E6DBA8 /* Awards */ = {
+			isa = PBXGroup;
+			children = (
+				FD7263D927E4004000E6DBA8 /* AwardsView.swift */,
+				FD7263D727E3FF5A00E6DBA8 /* Award.swift */,
+				FD72641227E6BBB100E6DBA8 /* Awards.json */,
+				FD7263FB27E555A800E6DBA8 /* Awards.json */,
+			);
+			path = Awards;
+			sourceTree = "<group>";
+		};
+		FD72640827E6A78800E6DBA8 /* Projects */ = {
+			isa = PBXGroup;
+			children = (
+				FD7263BD27DE7F8B00E6DBA8 /* ProjectsView.swift */,
+				FD7263D127E3A83200E6DBA8 /* SelectSomethingView.swift */,
+				FD7263C927DF023A00E6DBA8 /* ProjectHeaderView.swift */,
+				FD7263C527DEC1B400E6DBA8 /* ItemRowView.swift */,
+				FD7263CD27E045B900E6DBA8 /* EditProjectView.swift */,
+				FD7263C327DEBDA900E6DBA8 /* EditItemView.swift */,
+			);
+			path = Projects;
+			sourceTree = "<group>";
+		};
+		FD72640927E6A79500E6DBA8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FD7263BB27DE7E9800E6DBA8 /* HomeView.swift */,
+				FD72640227E5857900E6DBA8 /* ItemListView.swift */,
+				FD72640427E588C400E6DBA8 /* ProjectSummaryView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FD72640A27E6B57800E6DBA8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FD7263D327E3F1D000E6DBA8 /* Bundle.Decodable.swift */,
+				FD7263CF27E39A9300E6DBA8 /* Sequence-Sorting.swift */,
+				FD7263C727DEF8BD00E6DBA8 /* Binding-OnChange.swift */,
+				FD7263DB27E40FB400E6DBA8 /* Color-Additions.swift */,
+				FD7263BF27DEA92700E6DBA8 /* Item-CoreDataHelpers.swift */,
+				FD7263C127DEA9FC00E6DBA8 /* Project-CoreDataHelpers.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FD72640B27E6B57F00E6DBA8 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				FD368A5727E6CA5800F57FA6 /* Localizable.strings */,
+				FDD77E9C27E6C96A00B5976C /* Localizable.stringsdict */,
+				FD7263EF27E5425800E6DBA8 /* Localizable.strings */,
+				FD72640127E555C500E6DBA8 /* Localizable.stringsdict */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		FD72640D27E6BA9600E6DBA8 /* Activities */ = {
+			isa = PBXGroup;
+			children = (
+				FD72640927E6A79500E6DBA8 /* Home */,
+				FD72640827E6A78800E6DBA8 /* Projects */,
+				FD72640727E6A77000E6DBA8 /* Awards */,
+			);
+			path = Activities;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -168,6 +216,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FD7263AE27DE4F8300E6DBA8 /* Build configuration list for PBXNativeTarget "UltimatePortfolio" */;
 			buildPhases = (
+				FD72640627E65C7E00E6DBA8 /* SwiftLint */,
 				FD72639C27DE4F8200E6DBA8 /* Sources */,
 				FD72639D27DE4F8200E6DBA8 /* Frameworks */,
 				FD72639E27DE4F8200E6DBA8 /* Resources */,
@@ -222,17 +271,38 @@
 			files = (
 				FD7263ED27E5425800E6DBA8 /* Localizable.strings in Resources */,
 				FD7263CC27DF062400E6DBA8 /* Colors.xcassets in Resources */,
-				FD7263F027E5426F00E6DBA8 /* Awards.json in Resources */,
+				FDD77E9A27E6C96A00B5976C /* Localizable.stringsdict in Resources */,
 				FD7263FF27E555C500E6DBA8 /* Localizable.stringsdict in Resources */,
-				FD7263FC27E555B300E6DBA8 /* Localizable.strings in Resources */,
+				FD368A5527E6CA5800F57FA6 /* Localizable.strings in Resources */,
+				FD72641027E6BBB100E6DBA8 /* Awards.json in Resources */,
 				FD7263F927E555A800E6DBA8 /* Awards.json in Resources */,
 				FD7263AB27DE4F8300E6DBA8 /* Preview Assets.xcassets in Resources */,
 				FD7263A827DE4F8300E6DBA8 /* Assets.xcassets in Resources */,
-				FD7263EA27E5424800E6DBA8 /* Localizable.stringsdict in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FD72640627E65C7E00E6DBA8 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FD72639C27DE4F8200E6DBA8 /* Sources */ = {
@@ -266,12 +336,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FD7263EC27E5424800E6DBA8 /* Localizable.stringsdict */ = {
+		FD368A5727E6CA5800F57FA6 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FD7263EB27E5424800E6DBA8 /* en */,
+				FD368A5627E6CA5800F57FA6 /* hu */,
 			);
-			name = Localizable.stringsdict;
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 		FD7263EF27E5425800E6DBA8 /* Localizable.strings */ = {
@@ -282,14 +352,6 @@
 			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
-		FD7263F227E5426F00E6DBA8 /* Awards.json */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FD7263F127E5426F00E6DBA8 /* en */,
-			);
-			name = Awards.json;
-			sourceTree = "<group>";
-		};
 		FD7263FB27E555A800E6DBA8 /* Awards.json */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -298,18 +360,26 @@
 			name = Awards.json;
 			sourceTree = "<group>";
 		};
-		FD7263FE27E555B300E6DBA8 /* Localizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FD7263FD27E555B300E6DBA8 /* hu */,
-			);
-			name = Localizable.strings;
-			sourceTree = "<group>";
-		};
 		FD72640127E555C500E6DBA8 /* Localizable.stringsdict */ = {
 			isa = PBXVariantGroup;
 			children = (
 				FD72640027E555C500E6DBA8 /* hu */,
+			);
+			name = Localizable.stringsdict;
+			sourceTree = "<group>";
+		};
+		FD72641227E6BBB100E6DBA8 /* Awards.json */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD72641127E6BBB100E6DBA8 /* en */,
+			);
+			name = Awards.json;
+			sourceTree = "<group>";
+		};
+		FDD77E9C27E6C96A00B5976C /* Localizable.stringsdict */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDD77E9B27E6C96A00B5976C /* en */,
 			);
 			name = Localizable.stringsdict;
 			sourceTree = "<group>";
