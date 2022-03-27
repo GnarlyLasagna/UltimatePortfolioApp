@@ -53,7 +53,7 @@ class AwardTests: BaseTestCase {
                 award.criterion == "items" && dataController.hasEarned(award: award)
             }
 
-            XCTAssertEqual(matches.count, count + 1, "asdding \(value) items should unlock \(count + 1) awards.")
+            XCTAssertEqual(matches.count, count + 1, "adding \(value) items should unlock \(count + 1) awards.")
 
             for item in items {
                 dataController.delete(item)
