@@ -12,6 +12,13 @@
 		FD5FEBCE27EFD5B900F81FBF /* AssetTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5FEBCB27EFD5B900F81FBF /* AssetTest.swift */; };
 		FD5FEBCF27EFD5B900F81FBF /* ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5FEBCC27EFD5B900F81FBF /* ProjectTests.swift */; };
 		FD5FEBD027EFD5B900F81FBF /* AwardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5FEBCD27EFD5B900F81FBF /* AwardTests.swift */; };
+		FD5FEBD227EFE98600F81FBF /* DevelopmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5FEBD127EFE98600F81FBF /* DevelopmentTests.swift */; };
+		FD5FEBD427EFFD9F00F81FBF /* ExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5FEBD327EFFD9F00F81FBF /* ExtensionTests.swift */; };
+		FD5FEBD727F0002600F81FBF /* DecodableDictionary.json in Resources */ = {isa = PBXBuildFile; fileRef = FD5FEBD627F0002600F81FBF /* DecodableDictionary.json */; };
+		FD5FEBDC27F002C700F81FBF /* DecodableString.json in Resources */ = {isa = PBXBuildFile; fileRef = FD5FEBDB27F002C700F81FBF /* DecodableString.json */; };
+		FD5FEBDE27F11B5800F81FBF /* PerformanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5FEBDD27F11B5800F81FBF /* PerformanceTests.swift */; };
+		FD5FEBE627F11F7000F81FBF /* UltimatePortfolioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5FEBE527F11F7000F81FBF /* UltimatePortfolioUITests.swift */; };
+		FD5FEBE827F11F7000F81FBF /* UltimatePortfolioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5FEBE727F11F7000F81FBF /* UltimatePortfolioUITestsLaunchTests.swift */; };
 		FD7263A427DE4F8200E6DBA8 /* UltimatePortfolioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7263A327DE4F8200E6DBA8 /* UltimatePortfolioApp.swift */; };
 		FD7263A627DE4F8200E6DBA8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7263A527DE4F8200E6DBA8 /* ContentView.swift */; };
 		FD7263A827DE4F8300E6DBA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD7263A727DE4F8300E6DBA8 /* Assets.xcassets */; };
@@ -52,6 +59,13 @@
 			remoteGlobalIDString = FD72639F27DE4F8200E6DBA8;
 			remoteInfo = UltimatePortfolio;
 		};
+		FD5FEBE927F11F7000F81FBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD72639827DE4F8200E6DBA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD72639F27DE4F8200E6DBA8;
+			remoteInfo = UltimatePortfolio;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +75,14 @@
 		FD5FEBCB27EFD5B900F81FBF /* AssetTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssetTest.swift; sourceTree = "<group>"; };
 		FD5FEBCC27EFD5B900F81FBF /* ProjectTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectTests.swift; sourceTree = "<group>"; };
 		FD5FEBCD27EFD5B900F81FBF /* AwardTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AwardTests.swift; sourceTree = "<group>"; };
+		FD5FEBD127EFE98600F81FBF /* DevelopmentTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DevelopmentTests.swift; sourceTree = "<group>"; };
+		FD5FEBD327EFFD9F00F81FBF /* ExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionTests.swift; sourceTree = "<group>"; };
+		FD5FEBD627F0002600F81FBF /* DecodableDictionary.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = DecodableDictionary.json; sourceTree = "<group>"; };
+		FD5FEBDB27F002C700F81FBF /* DecodableString.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = DecodableString.json; sourceTree = "<group>"; };
+		FD5FEBDD27F11B5800F81FBF /* PerformanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformanceTests.swift; sourceTree = "<group>"; };
+		FD5FEBE327F11F7000F81FBF /* UltimatePortfolioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UltimatePortfolioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD5FEBE527F11F7000F81FBF /* UltimatePortfolioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltimatePortfolioUITests.swift; sourceTree = "<group>"; };
+		FD5FEBE727F11F7000F81FBF /* UltimatePortfolioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltimatePortfolioUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		FD7263A027DE4F8200E6DBA8 /* UltimatePortfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UltimatePortfolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD7263A327DE4F8200E6DBA8 /* UltimatePortfolioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltimatePortfolioApp.swift; sourceTree = "<group>"; };
 		FD7263A527DE4F8200E6DBA8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -104,6 +126,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FD5FEBE027F11F7000F81FBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FD72639D27DE4F8200E6DBA8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -118,12 +147,34 @@
 		FD5FEBC127EFD49100F81FBF /* UltimatePortfolioTests */ = {
 			isa = PBXGroup;
 			children = (
+				FD5FEBD527EFFFFF00F81FBF /* TestFixtures */,
 				FD5FEBC927EFD4BB00F81FBF /* UltimatePortfolioTests.swift */,
+				FD5FEBD327EFFD9F00F81FBF /* ExtensionTests.swift */,
 				FD5FEBCB27EFD5B900F81FBF /* AssetTest.swift */,
 				FD5FEBCD27EFD5B900F81FBF /* AwardTests.swift */,
+				FD5FEBDD27F11B5800F81FBF /* PerformanceTests.swift */,
 				FD5FEBCC27EFD5B900F81FBF /* ProjectTests.swift */,
+				FD5FEBD127EFE98600F81FBF /* DevelopmentTests.swift */,
 			);
 			path = UltimatePortfolioTests;
+			sourceTree = "<group>";
+		};
+		FD5FEBD527EFFFFF00F81FBF /* TestFixtures */ = {
+			isa = PBXGroup;
+			children = (
+				FD5FEBD627F0002600F81FBF /* DecodableDictionary.json */,
+				FD5FEBDB27F002C700F81FBF /* DecodableString.json */,
+			);
+			path = TestFixtures;
+			sourceTree = "<group>";
+		};
+		FD5FEBE427F11F7000F81FBF /* UltimatePortfolioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FD5FEBE527F11F7000F81FBF /* UltimatePortfolioUITests.swift */,
+				FD5FEBE727F11F7000F81FBF /* UltimatePortfolioUITestsLaunchTests.swift */,
+			);
+			path = UltimatePortfolioUITests;
 			sourceTree = "<group>";
 		};
 		FD72639727DE4F8200E6DBA8 = {
@@ -131,6 +182,7 @@
 			children = (
 				FD7263A227DE4F8200E6DBA8 /* UltimatePortfolio */,
 				FD5FEBC127EFD49100F81FBF /* UltimatePortfolioTests */,
+				FD5FEBE427F11F7000F81FBF /* UltimatePortfolioUITests */,
 				FD7263A127DE4F8200E6DBA8 /* Products */,
 				FD7263B827DE796500E6DBA8 /* Frameworks */,
 			);
@@ -141,6 +193,7 @@
 			children = (
 				FD7263A027DE4F8200E6DBA8 /* UltimatePortfolio.app */,
 				FD5FEBC027EFD49100F81FBF /* UltimatePortfolioTests.xctest */,
+				FD5FEBE327F11F7000F81FBF /* UltimatePortfolioUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -269,6 +322,24 @@
 			productReference = FD5FEBC027EFD49100F81FBF /* UltimatePortfolioTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		FD5FEBE227F11F7000F81FBF /* UltimatePortfolioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD5FEBEB27F11F7000F81FBF /* Build configuration list for PBXNativeTarget "UltimatePortfolioUITests" */;
+			buildPhases = (
+				FD5FEBDF27F11F7000F81FBF /* Sources */,
+				FD5FEBE027F11F7000F81FBF /* Frameworks */,
+				FD5FEBE127F11F7000F81FBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD5FEBEA27F11F7000F81FBF /* PBXTargetDependency */,
+			);
+			name = UltimatePortfolioUITests;
+			productName = UltimatePortfolioUITests;
+			productReference = FD5FEBE327F11F7000F81FBF /* UltimatePortfolioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		FD72639F27DE4F8200E6DBA8 /* UltimatePortfolio */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FD7263AE27DE4F8300E6DBA8 /* Build configuration list for PBXNativeTarget "UltimatePortfolio" */;
@@ -302,6 +373,10 @@
 						LastSwiftMigration = 1330;
 						TestTargetID = FD72639F27DE4F8200E6DBA8;
 					};
+					FD5FEBE227F11F7000F81FBF = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = FD72639F27DE4F8200E6DBA8;
+					};
 					FD72639F27DE4F8200E6DBA8 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
@@ -323,12 +398,22 @@
 			targets = (
 				FD72639F27DE4F8200E6DBA8 /* UltimatePortfolio */,
 				FD5FEBBF27EFD49100F81FBF /* UltimatePortfolioTests */,
+				FD5FEBE227F11F7000F81FBF /* UltimatePortfolioUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		FD5FEBBE27EFD49100F81FBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD5FEBDC27F002C700F81FBF /* DecodableString.json in Resources */,
+				FD5FEBD727F0002600F81FBF /* DecodableDictionary.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD5FEBE127F11F7000F81FBF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -379,10 +464,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD5FEBDE27F11B5800F81FBF /* PerformanceTests.swift in Sources */,
 				FD5FEBCE27EFD5B900F81FBF /* AssetTest.swift in Sources */,
 				FD5FEBD027EFD5B900F81FBF /* AwardTests.swift in Sources */,
 				FD5FEBCA27EFD4BB00F81FBF /* UltimatePortfolioTests.swift in Sources */,
+				FD5FEBD427EFFD9F00F81FBF /* ExtensionTests.swift in Sources */,
 				FD5FEBCF27EFD5B900F81FBF /* ProjectTests.swift in Sources */,
+				FD5FEBD227EFE98600F81FBF /* DevelopmentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD5FEBDF27F11F7000F81FBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD5FEBE827F11F7000F81FBF /* UltimatePortfolioUITestsLaunchTests.swift in Sources */,
+				FD5FEBE627F11F7000F81FBF /* UltimatePortfolioUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,6 +518,11 @@
 			isa = PBXTargetDependency;
 			target = FD72639F27DE4F8200E6DBA8 /* UltimatePortfolio */;
 			targetProxy = FD5FEBC427EFD49100F81FBF /* PBXContainerItemProxy */;
+		};
+		FD5FEBEA27F11F7000F81FBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD72639F27DE4F8200E6DBA8 /* UltimatePortfolio */;
+			targetProxy = FD5FEBE927F11F7000F81FBF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -524,6 +626,42 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UltimatePortfolio.app/UltimatePortfolio";
+			};
+			name = Release;
+		};
+		FD5FEBEC27F11F7000F81FBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.UltimatePortfolio.UltimatePortfolioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UltimatePortfolio;
+			};
+			name = Debug;
+		};
+		FD5FEBED27F11F7000F81FBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.UltimatePortfolio.UltimatePortfolioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UltimatePortfolio;
 			};
 			name = Release;
 		};
@@ -651,6 +789,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = UltimatePortfolio/UltimatePortfolio.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"UltimatePortfolio/Preview Content\"";
@@ -717,6 +856,15 @@
 			buildConfigurations = (
 				FD5FEBC627EFD49100F81FBF /* Debug */,
 				FD5FEBC727EFD49100F81FBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD5FEBEB27F11F7000F81FBF /* Build configuration list for PBXNativeTarget "UltimatePortfolioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD5FEBEC27F11F7000F81FBF /* Debug */,
+				FD5FEBED27F11F7000F81FBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
