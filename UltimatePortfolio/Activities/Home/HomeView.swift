@@ -1,10 +1,11 @@
 import CoreData
+import CoreSpotlight
 import SwiftUI
 
 struct HomeView: View {
     static let tag: String? = "Home"
     let items: FetchRequest<Item>
-
+    @State var selectedItem: Item?
     @FetchRequest(
         entity: Project.entity(),
         sortDescriptors: [NSSortDescriptor(keyPath: \Project.title, ascending: true)],
@@ -34,6 +35,15 @@ struct HomeView: View {
     var body: some View {
         NavigationView {
             ScrollView {
+                if let item = selectedItem {
+                    NavigationLink(
+                        destination: EditItemView(item: item),
+                        tag: item,
+                        selection: $selectedItem,
+                        label: EmptyView.init
+                    )
+                    .id(item)
+                }
                 VStack(alignment: .leading) {
                     ScrollView(.horizontal, showsIndicators: false) {
                         LazyHGrid(rows: projectRows) {
@@ -58,10 +68,19 @@ struct HomeView: View {
                     try? dataController.createSampleData()
                 }
             }
+            .onContinueUserActivity(CSSearchableItemActionType, perform: loadSpotlightItem)
 // Add data button
             }
         }
+    func selectItem(with identifier: String) {
+        selectedItem = dataController.item(with: identifier)
     }
+    func loadSpotlightItem(_ userActivity: NSUserActivity) {
+        if let uniqueIdentifier = userActivity.userInfo?[CSSearchableItemActivityIdentifier] as? String {
+            selectItem(with: uniqueIdentifier)
+        }
+    }
+}
 struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
         HomeView()
